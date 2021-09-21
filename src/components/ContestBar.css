@@ -1,0 +1,44 @@
+.outer {
+  border-bottom: 1px solid rgba(112, 105, 105, 0.39);
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+  height: 72px;
+}
+.outer:hover {
+  /* fecc36 */
+  background-color: #ecf0f1;
+}
+.icon {
+  /* border: 1px solid rgb(138, 73, 73); */
+  width: 15%;
+}
+
+.info {
+  display: flex;
+  /* border: 1px solid black; */
+  flex-direction: column;
+  width: 70%;
+}
+
+.name {
+  text-align: left;
+  margin-left: 5%;
+}
+.name a {
+  text-decoration: none;
+}
+.name a:hover {
+  text-decoration: underline;
+}
+.time {
+  text-align: left;
+  margin-top: 1px;
+  margin-left: 3.5%;
+  font-size: 13px;
+  color: rgb(68, 68, 68);
+  /* font-family: Courier, monospace; */
+}
+.innertime {
+  margin: 4px;
+}
